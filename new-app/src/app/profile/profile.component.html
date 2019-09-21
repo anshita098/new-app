@@ -1,0 +1,16 @@
+<div *ngFor="let i of profiles">
+  <div class="card">
+    <img src="" alt="John" style="width:100%">
+    <h1>{{i.name}}</h1>
+    <p class="title">{{i.domain}}</p>
+    <p>{{i.joining_date}}</p>
+    <div style="margin: 24px 0;">
+      <a href="#"><i class="fa fa-dribbble"></i></a> 
+      <a href="#"><i class="fa fa-twitter"></i></a>  
+      <a href="#"><i class="fa fa-linkedin"></i></a>  
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+    </div>
+    <div id="button">
+    <a routerLink="/chart">Profile</a></div>
+  </div>
+  </div>

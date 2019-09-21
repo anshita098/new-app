@@ -1,0 +1,16 @@
+<form>
+  <input type="text" #todo placeholder="enter a number" name="name">
+  <button (click)="myFunc(todo.value)">click me</button>
+  </form>
+  <div>
+       <div style="display: block">
+      <canvas baseChart
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [chartType]="barChartType">
+      </canvas>
+    </div>
+  </div>
+  
